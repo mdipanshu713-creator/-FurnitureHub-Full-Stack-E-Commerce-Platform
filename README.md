@@ -15,12 +15,8 @@ A production-ready full-stack Furniture E-Commerce platform built using **Django
 
 ### 🎥 Project Demo Video
 
-Add your demo video link here
+<img width="480" height="270" alt="project_demo_lightweight" src="https://github.com/user-attachments/assets/727a27e8-b828-4a25-80ff-fde8e9cefeb0" />
 
-```text
-<img width="480" height="270" alt="project_demo_lightweight" src="https://github.com/user-attachments/assets/50c7dd36-9418-402c-9d95-3a2f38652ffe" />
-
-```
 
 ### 💻 GitHub Repository
 
