@@ -1,4 +1,3 @@
-<img width="1920" height="1080" alt="Screenshot (1026)" src="https://github.com/user-attachments/assets/6f6be6ea-e74b-4b44-8a00-af5f728a266b" />
 # 🛒 FurnitureHub – Full Stack E-Commerce Platform
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
@@ -17,6 +16,27 @@ A modern full-stack e-commerce platform built using **Django**, **Django REST Fr
 <img width="480" height="270" alt="project_demo_lightweight" src="https://github.com/user-attachments/assets/859720b1-9561-4046-bdb5-ad41adc9ab3e" />
 
 ---
+
+<img width="1920" height="1080" alt="Screenshot (1026)" src="https://github.com/user-attachments/assets/6f6be6ea-e74b-4b44-8a00-af5f728a266b" />
+
+
+
+<img width="1920" height="1080" alt="Screenshot (1028)" src="https://github.com/user-attachments/assets/afbc0565-98c7-4182-8228-edefc8361c10" />
+
+<img width="1920" height="1080" alt="Screenshot (1029)" src="https://github.com/user-attachments/assets/543a3506-a677-4bc7-96dc-776e2012e400" />
+
+
+<img width="1920" height="1080" alt="Screenshot (1028)" src="https://github.com/user-attachments/assets/8a8c44b0-53ca-49f4-bc56-ab5adc472c2d" />
+
+<img width="1920" height="1080" alt="Screenshot (1031)" src="https://github.com/user-attachments/assets/dddb8945-8b80-4a4c-9991-2ea4be7f2996" />
+<img width="1920" height="1080" alt="Screenshot (1041)" src="https://github.com/user-attachments/assets/c0570842-c7be-4f08-8342-4eac7fcbb5e7" />
+<img width="1920" height="1080" alt="Screenshot (1036)" src="https://github.com/user-attachments/assets/66ba9c6d-5f93-4c10-97b1-1a948a770042" />
+<img width="1920" height="1080" alt="Screenshot (1034)" src="https://github.com/user-attachments/assets/bd4706f3-3f15-4719-9ae9-6adacbd3793a" />
+
+<img width="1920" height="1080" alt="Screenshot (1030)" src="https://github.com/user-attachments/assets/6b9c6ea1-8a3e-42a2-9d85-884029a84110" />
+
+
+
 
 ## ✨ Core Features
 
