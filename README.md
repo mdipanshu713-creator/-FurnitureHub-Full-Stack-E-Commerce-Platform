@@ -1,291 +1,144 @@
-# 🛒 FurnitureHub – Full Stack E-Commerce Platform
+# 🛒 FurnitureHub – Full Stack Furniture E-Commerce Platform with Razorpay Integration
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![Django](https://img.shields.io/badge/Django-Framework-green)
 ![DRF](https://img.shields.io/badge/Django_REST_Framework-API-red)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-Frontend-purple)
+![Razorpay](https://img.shields.io/badge/Razorpay-Payment_Gateway-blue)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
-A modern full-stack e-commerce platform built using **Django**, **Django REST Framework**, **Bootstrap**, and **SQLite/PostgreSQL**. The application allows users to browse products, search items, manage shopping carts, maintain wishlists, place orders, and interact with a secure role-based management system.
+A production-ready full-stack Furniture E-Commerce platform built using **Django**, **Django REST Framework**, **Bootstrap**, and **SQLite/PostgreSQL**. The application enables customers to browse furniture products, manage carts and wishlists, place orders, make secure online payments through Razorpay, and enjoy a seamless shopping experience.
 
 ---
 
+## 🚀 Live Demo
 
-## 📸 Project Preview
+### 🎥 Project Demo Video
 
-<img width="480" height="270" alt="project_demo_lightweight" src="https://github.com/user-attachments/assets/859720b1-9561-4046-bdb5-ad41adc9ab3e" />
-
----
-
-<img width="1920" height="1080" alt="Screenshot (1026)" src="https://github.com/user-attachments/assets/6f6be6ea-e74b-4b44-8a00-af5f728a266b" />
-
-
-
-<img width="1920" height="1080" alt="Screenshot (1028)" src="https://github.com/user-attachments/assets/afbc0565-98c7-4182-8228-edefc8361c10" />
-
-<img width="1920" height="1080" alt="Screenshot (1029)" src="https://github.com/user-attachments/assets/543a3506-a677-4bc7-96dc-776e2012e400" />
-
-
-<img width="1920" height="1080" alt="Screenshot (1028)" src="https://github.com/user-attachments/assets/8a8c44b0-53ca-49f4-bc56-ab5adc472c2d" />
-
-<img width="1920" height="1080" alt="Screenshot (1031)" src="https://github.com/user-attachments/assets/dddb8945-8b80-4a4c-9991-2ea4be7f2996" />
-<img width="1920" height="1080" alt="Screenshot (1041)" src="https://github.com/user-attachments/assets/c0570842-c7be-4f08-8342-4eac7fcbb5e7" />
-<img width="1920" height="1080" alt="Screenshot (1036)" src="https://github.com/user-attachments/assets/66ba9c6d-5f93-4c10-97b1-1a948a770042" />
-<img width="1920" height="1080" alt="Screenshot (1034)" src="https://github.com/user-attachments/assets/bd4706f3-3f15-4719-9ae9-6adacbd3793a" />
-
-<img width="1920" height="1080" alt="Screenshot (1030)" src="https://github.com/user-attachments/assets/6b9c6ea1-8a3e-42a2-9d85-884029a84110" />
-
-
-
-
-## ✨ Core Features
-
-| Feature              | Description                      |
-| -------------------- | -------------------------------- |
-| 🔐 Authentication    | User Registration, Login, Logout |
-| 👥 Role-Based Access | Admin & Customer Roles           |
-| 🛍️ Product Catalog  | Browse Products by Category      |
-| 🔍 Search System     | Product Search & Filtering       |
-| 🛒 Shopping Cart     | Add, Update, Remove Products     |
-| ❤️ Wishlist          | Save Favourite Products          |
-| 📦 Orders            | Order Placement & Tracking       |
-| 💬 Reviews           | Product Reviews & Ratings        |
-| 📱 Responsive Design | Mobile & Desktop Friendly        |
-| 🔗 REST APIs         | Built with Django REST Framework |
-
----
-
-## 👤 User Authentication
-
-* User Registration
-* Login & Logout
-* Profile Management
-* Password Reset
-* Session Authentication
-
----
-
-## 🛍️ Product Management
-
-* Product Listing
-* Product Details
-* Category Management
-* Featured Products
-* Product Gallery
-* Inventory Management
-
----
-
-## 🔍 Search & Filtering
-
-* Product Search
-* Category Filtering
-* Keyword Search
-* Price-Based Filtering
-* Sorting Options
-
----
-
-## 🛒 Shopping Cart System
-
-* Add Products to Cart
-* Remove Products
-* Update Quantities
-* Dynamic Total Calculation
-* Cart Summary
-
----
-
-## ❤️ Wishlist
-
-* Add to Wishlist
-* Remove from Wishlist
-* Move Items to Cart
-
----
-
-## 📦 Order Management
-
-* Place Orders
-* Order History
-* Track Orders
-* Order Status Updates
-
----
-
-## 💬 Reviews & Comments
-
-* Product Ratings
-* Customer Reviews
-* Comment Moderation
-* Feedback Management
-
----
-
-## 🎭 Role-Based Management System
-
-### Admin
-
-* Manage Products
-* Manage Users
-* Manage Orders
-* Manage Categories
-* Dashboard Analytics
-
-### Customer
-
-* Browse Products
-* Place Orders
-* Track Orders
-* Manage Profile
-* Submit Reviews
-
----
-
-## 🔗 REST API (DRF)
-
-### Available Endpoints
-
-```http
-GET    /api/products/
-GET    /api/products/{id}/
-POST   /api/orders/
-GET    /api/categories/
-POST   /api/login/
-```
-
-### API Features
-
-* CRUD Operations
-* JSON Responses
-* Authentication APIs
-* Product APIs
-* Category APIs
-* Order APIs
-
----
-
-## 🏗️ Tech Stack
-
-### Backend
-
-* Python
-* Django
-* Django REST Framework
-
-### Frontend
-
-* HTML5
-* CSS3
-* Bootstrap
-* JavaScript
-* AJAX
-
-### Database
-
-* SQLite
-* PostgreSQL
-
-### Deployment
-
-* PythonAnywhere
-* Render
-* AWS
-
-### Tools
-
-* Git
-* GitHub
-* VS Code
-
----
-
-## 📂 Project Structure
+Add your demo video link here
 
 ```text
-ecommerce/
-│
-├── accounts/
-├── products/
-├── cart/
-├── orders/
-├── wishlist/
-├── reviews/
-├── api/
-├── templates/
-├── static/
-├── media/
-├── manage.py
-└── requirements.txt
+https://your-demo-link
+```
+
+### 💻 GitHub Repository
+
+```text
+https://github.com/mdipanshu713-creator/-FurnitureHub-Full-Stack-E-Commerce-Platform
 ```
 
 ---
 
-## 🚀 Installation
+## 🌟 Key Highlights
 
-### Clone Repository
+✅ Full Stack Django Application
 
-```bash
-git clone https://github.com/yourusername/furniturehub.git
+✅ Razorpay Payment Gateway Integration
+
+✅ Shopping Cart & Wishlist System
+
+✅ Role-Based Authentication
+
+✅ REST APIs using Django REST Framework
+
+✅ Product Search & Filtering
+
+✅ Order Management System
+
+✅ Responsive User Interface
+
+✅ Admin Dashboard
+
+✅ Production Ready Architecture
+
+---
+
+## 🏗️ System Architecture
+
+```text
+Frontend (HTML, CSS, Bootstrap)
+            │
+            ▼
+      Django Views
+            │
+            ▼
+      Business Logic
+            │
+            ▼
+        Django ORM
+            │
+            ▼
+   SQLite / PostgreSQL
+            │
+            ▼
+ Razorpay Payment Gateway
 ```
 
-### Create Virtual Environment
+---
 
-```bash
-python -m venv venv
-```
+## 💳 Payment Gateway Integration
 
-### Activate Environment
+FurnitureHub integrates Razorpay to provide secure online transactions.
 
-```bash
-venv\Scripts\activate
-```
+### Supported Payment Methods
 
-### Install Requirements
+* UPI
+* Credit Cards
+* Debit Cards
+* Net Banking
+* Wallet Payments
 
-```bash
-pip install -r requirements.txt
-```
+### Payment Features
 
-### Apply Migrations
+* Secure Checkout
+* Payment Verification
+* Transaction Handling
+* Order Confirmation
+* Payment Status Tracking
 
-```bash
-python manage.py migrate
-```
+---
 
-### Run Server
+## 📊 Project Statistics
 
-```bash
-python manage.py runserver
-```
+| Category         | Details                          |
+| ---------------- | -------------------------------- |
+| Framework        | Django                           |
+| API Framework    | Django REST Framework            |
+| Database         | SQLite / PostgreSQL              |
+| Frontend         | HTML, CSS, Bootstrap, JavaScript |
+| Payment Gateway  | Razorpay                         |
+| Authentication   | Session Based                    |
+| Architecture     | MVT                              |
+| Deployment Ready | Yes                              |
 
 ---
 
 ## 🎯 Skills Demonstrated
 
-* Full Stack Web Development
+* Full Stack Development
 * Django Development
 * REST API Development
 * Authentication & Authorization
 * Role-Based Access Control (RBAC)
 * Database Design
-* CRUD Operations
-* Search Optimization
+* Payment Gateway Integration
+* Search & Filtering
+* Software Engineering Best Practices
 * Deployment & Hosting
-* Software Engineering Practices
 
 ---
 
 ## 📈 Future Enhancements
 
-* Razorpay Integration
-* Stripe Payments
-* AI Product Recommendation System
-* Chatbot Support
+* AI Product Recommendation Engine
+* Chatbot Customer Support
+* Elasticsearch Integration
 * Docker Deployment
-* Elasticsearch
 * CI/CD Pipeline
+* Email Notifications
 * Multi-Vendor Marketplace
+* Sales Analytics Dashboard
+* Inventory Forecasting
 
 ---
 
@@ -293,29 +146,13 @@ python manage.py runserver
 
 ### Dipanshu Mishra
 
-🎓 MSc IT Student
+🎓 MSc Information Technology
+
 💻 Full Stack Django Developer
+
 🤖 AI & Machine Learning Enthusiast
+
 🚀 Aspiring Software Engineer
 
----
-
-## ⭐ Highlights
-
-✅ Full Stack Django Application
-
-✅ E-Commerce Platform
-
-✅ Shopping Cart & Wishlist
-
-✅ Role-Based Authentication
-
-✅ REST APIs using DRF
-
-✅ Search & Filtering
-
-✅ Order Management
-
-✅ Admin Dashboard
-
-✅ Production Ready
+GitHub:
+https://github.com/mdipanshu713-creator
