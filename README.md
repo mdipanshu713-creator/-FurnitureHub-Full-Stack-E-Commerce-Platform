@@ -1,124 +1,146 @@
-
-
 # 🛒 FurnitureHub – Full Stack E-Commerce Platform
 
-## 📌 Overview
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Django](https://img.shields.io/badge/Django-Framework-green)
+![DRF](https://img.shields.io/badge/Django_REST_Framework-API-red)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-Frontend-purple)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
-FurnitureHub is a full-featured E-Commerce web application developed using Django. The platform allows customers to browse furniture products, search items, manage their cart, place orders, and track purchases through a modern and responsive interface.
-
-The project implements industry-standard features such as authentication, role-based access control, product management, order processing, REST APIs, and an administrative dashboard.
+A modern full-stack e-commerce platform built using **Django**, **Django REST Framework**, **Bootstrap**, and **SQLite/PostgreSQL**. The application allows users to browse products, search items, manage shopping carts, maintain wishlists, place orders, and interact with a secure role-based management system.
 
 ---
-Live demo 
-<img width="480" height="270" alt="project_demo_lightweight" src="https://github.com/user-attachments/assets/95a95442-a0e4-4556-b953-03a0db88de9f" />
 
 
+## 📸 Project Preview
 
-## 🌟 Features
+<img width="480" height="270" alt="project_demo_lightweight" src="https://github.com/user-attachments/assets/859720b1-9561-4046-bdb5-ad41adc9ab3e" />
 
-### 👤 User Authentication
+---
+
+## ✨ Core Features
+
+| Feature              | Description                      |
+| -------------------- | -------------------------------- |
+| 🔐 Authentication    | User Registration, Login, Logout |
+| 👥 Role-Based Access | Admin & Customer Roles           |
+| 🛍️ Product Catalog  | Browse Products by Category      |
+| 🔍 Search System     | Product Search & Filtering       |
+| 🛒 Shopping Cart     | Add, Update, Remove Products     |
+| ❤️ Wishlist          | Save Favourite Products          |
+| 📦 Orders            | Order Placement & Tracking       |
+| 💬 Reviews           | Product Reviews & Ratings        |
+| 📱 Responsive Design | Mobile & Desktop Friendly        |
+| 🔗 REST APIs         | Built with Django REST Framework |
+
+---
+
+## 👤 User Authentication
 
 * User Registration
 * Login & Logout
-* Password Reset
 * Profile Management
-* Secure Authentication System
+* Password Reset
+* Session Authentication
 
-### 🛍️ Product Management
+---
 
-* Product Catalog
-* Product Categories
-* Product Details Page
+## 🛍️ Product Management
+
+* Product Listing
+* Product Details
+* Category Management
 * Featured Products
-* Latest Arrivals
-* Product Images Gallery
+* Product Gallery
+* Inventory Management
 
-### 🔍 Advanced Search & Filtering
+---
+
+## 🔍 Search & Filtering
 
 * Product Search
-* Category Filter
-* Price Filter
+* Category Filtering
 * Keyword Search
+* Price-Based Filtering
 * Sorting Options
 
-### 🛒 Shopping Cart
+---
 
-* Add to Cart
-* Remove from Cart
-* Update Quantity
+## 🛒 Shopping Cart System
+
+* Add Products to Cart
+* Remove Products
+* Update Quantities
+* Dynamic Total Calculation
 * Cart Summary
-* Dynamic Price Calculation
 
-### ❤️ Wishlist System
+---
 
-* Save Favorite Products
-* Manage Wishlist
-* Move Wishlist Items to Cart
+## ❤️ Wishlist
 
-### 📦 Order Management
+* Add to Wishlist
+* Remove from Wishlist
+* Move Items to Cart
+
+---
+
+## 📦 Order Management
 
 * Place Orders
 * Order History
-* Order Tracking
+* Track Orders
 * Order Status Updates
 
-### 💳 Checkout System
+---
 
-* Shipping Information
-* Billing Details
-* Order Confirmation
+## 💬 Reviews & Comments
 
-### 🎭 Role-Based Management
+* Product Ratings
+* Customer Reviews
+* Comment Moderation
+* Feedback Management
 
-#### Admin
+---
 
-* Manage Users
+## 🎭 Role-Based Management System
+
+### Admin
+
 * Manage Products
-* Manage Categories
+* Manage Users
 * Manage Orders
-* Monitor Sales
+* Manage Categories
 * Dashboard Analytics
 
-#### Customer
+### Customer
 
 * Browse Products
 * Place Orders
 * Track Orders
 * Manage Profile
-* Add Reviews
-
----
-
-## 💬 Product Reviews & Comments
-
-* Customer Reviews
-* Product Ratings
-* Comment Management
-* Review Moderation
+* Submit Reviews
 
 ---
 
 ## 🔗 REST API (DRF)
 
-Built with Django REST Framework.
+### Available Endpoints
+
+```http
+GET    /api/products/
+GET    /api/products/{id}/
+POST   /api/orders/
+GET    /api/categories/
+POST   /api/login/
+```
 
 ### API Features
 
+* CRUD Operations
+* JSON Responses
+* Authentication APIs
 * Product APIs
 * Category APIs
-* User APIs
 * Order APIs
-* Authentication APIs
-
-Example Endpoints:
-
-```http
-GET /api/products/
-GET /api/products/{id}/
-POST /api/orders/
-GET /api/categories/
-POST /api/login/
-```
 
 ---
 
@@ -141,16 +163,19 @@ POST /api/login/
 ### Database
 
 * SQLite
-* PostgreSQL (Production Ready)
+* PostgreSQL
 
 ### Deployment
 
-* PythonAnywhere / AWS / Render
+* PythonAnywhere
+* Render
+* AWS
 
-### Version Control
+### Tools
 
 * Git
 * GitHub
+* VS Code
 
 ---
 
@@ -195,7 +220,7 @@ python -m venv venv
 venv\Scripts\activate
 ```
 
-### Install Dependencies
+### Install Requirements
 
 ```bash
 pip install -r requirements.txt
@@ -217,35 +242,35 @@ python manage.py runserver
 
 ## 🎯 Skills Demonstrated
 
-* Full Stack Development
-* Django Framework
+* Full Stack Web Development
+* Django Development
 * REST API Development
 * Authentication & Authorization
-* E-Commerce System Design
-* Database Management
+* Role-Based Access Control (RBAC)
+* Database Design
 * CRUD Operations
 * Search Optimization
 * Deployment & Hosting
-* Software Engineering Best Practices
+* Software Engineering Practices
 
 ---
 
 ## 📈 Future Enhancements
 
-* Razorpay/Stripe Payment Gateway
+* Razorpay Integration
+* Stripe Payments
 * AI Product Recommendation System
 * Chatbot Support
-* Inventory Forecasting
-* Multi-Vendor Marketplace
 * Docker Deployment
+* Elasticsearch
 * CI/CD Pipeline
-* Elasticsearch Search Engine
+* Multi-Vendor Marketplace
 
 ---
 
 ## 👨‍💻 Author
 
-**Dipanshu Mishra**
+### Dipanshu Mishra
 
 🎓 MSc IT Student
 💻 Full Stack Django Developer
@@ -254,14 +279,22 @@ python manage.py runserver
 
 ---
 
-### ⭐ Key Highlights for Recruiters
+## ⭐ Highlights
 
-✅ Full Stack Django Project
-✅ E-Commerce Application
+✅ Full Stack Django Application
+
+✅ E-Commerce Platform
+
+✅ Shopping Cart & Wishlist
+
 ✅ Role-Based Authentication
-✅ Shopping Cart & Order Management
-✅ REST APIs using DRF
-✅ Search & Filtering System
-✅ Admin Dashboard
-✅ Production Deployment Ready
 
+✅ REST APIs using DRF
+
+✅ Search & Filtering
+
+✅ Order Management
+
+✅ Admin Dashboard
+
+✅ Production Ready
