@@ -1,3 +1,4 @@
+<img width="1920" height="1080" alt="Screenshot (1026)" src="https://github.com/user-attachments/assets/6f6be6ea-e74b-4b44-8a00-af5f728a266b" />
 # 🛒 FurnitureHub – Full Stack E-Commerce Platform
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
